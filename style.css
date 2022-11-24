@@ -1,0 +1,68 @@
+
+h1 {
+    text-align:center;
+    font-family:"Segoe print", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+h3 {
+    text-align:center;
+
+}
+/*Contenedor Principal*/
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    overflow: hidden;
+
+}
+/*Area de bloques*/
+.primer-bloque {
+    height: 250px;
+    background-color: rgb(29, 95, 176);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.segundo-bloque {
+    height: 250px;
+    background-color: rgb(66, 123, 13);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tercer-bloque {
+    height: 250px;
+    background-color: rgb(61, 43, 8);
+    margin: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*************************/
+img.luchadortocat {
+    height: 200px;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+  }
+  
+  img {
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  .cover {
+    object-fit: cover;
+    /*Dimensionarse para adaptarse a una caja de varias maneras*/
+  }
+  
+ 
